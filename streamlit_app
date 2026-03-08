@@ -1,0 +1,10 @@
+import streamlit as st
+
+st.title("Asset Register System")
+
+st.write("Welcome to Asset Management System")
+
+name = st.text_input("Asset Name")
+
+if st.button("Submit"):
+    st.success("Asset Saved Successfully")
